@@ -1,0 +1,85 @@
+/* tri css */
+.banner-caption .form-wrap {
+  margin: 0;
+}
+.custom_banner .caption-inner {
+  max-width: 900px;
+}
+.custom_banner .caption-inner .textbox {
+  text-align: left;
+}
+.custom_banner .caption-inner .textbox .title {
+  font-family: "Open Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.custom_banner .caption-inner .textbox .description {
+  margin: 0;
+}
+.custom_banner .caption-inner .textbox .description p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  padding: 13px 0;
+  margin: 0;
+}
+/* custom btn search */
+.banner-caption .jobscout_job_filters .search_jobs input[type="submit"] {
+  background: #ea751d;
+  background-repeat: unset;
+  background-position: unset;
+  color: #fff;
+  text-transform: uppercase;
+  text-indent: 0;
+  width: 100%;
+  font-weight: 600 !important;
+  font-family: "Open Sans", sans-serif;
+}
+.banner-caption .jobscout_job_filters .search_jobs input[type="submit"]:hover {
+  background: #ea751d;
+  background-image: unset;
+}
+.custom_search-btn .search_submit {
+  height: 100%;
+}
+
+/* custom_search_job
+ */
+.banner-caption .jobscout_job_filters .search_jobs {
+  display: unset !important;
+}
+.custom_search_job .wrap {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 2fr 1fr 150px;
+  padding: 15px;
+  background: #00000039;
+}
+.custom_search_job .wrap .search_keywords,
+.custom_search_job .wrap .search_location {
+  position: relative;
+}
+.custom_search_job .wrap .search_keywords svg,
+.custom_search_job .wrap .search_location svg {
+  color: #ea751d;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+.custom_search_job .wrap .search_location select:focus-visible,
+.custom_search_job .wrap .search_keywords input:focus-visible {
+  border: none !important;
+  outline: none;
+}
+.custom_search_job .wrap .search_location select,
+.custom_search_job .wrap .search_submit input[type="submit"],
+.custom_search_job .wrap .search_keywords input[type="text"] {
+  height: inherit !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.custom_search_job .wrap .search_location select,
+.custom_search_job .wrap .search_keywords input[type="text"] {
+  padding: 10px 30px 10px 45px;
+}
