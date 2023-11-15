@@ -2901,7 +2901,7 @@ section.article-section {
 
 .article-section .article-wrap {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
   text-align: left;
   margin-top: 50px;
@@ -2910,7 +2910,6 @@ section.article-section {
 
 .article-section .article-wrap article {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
-  border-radius: 5px;
   /*overflow: hidden;*/
 }
 

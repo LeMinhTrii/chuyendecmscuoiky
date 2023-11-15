@@ -1,0 +1,53 @@
+/* Css của kiên */
+.section-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.container-newest {
+    background-color: #f0f0f0;
+    padding: 0px 50px 40px 50px;
+}
+
+.totals-post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.total-post {
+    background-color: #fff;
+    display: flex;
+    width: 49%;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.content-post {
+    flex: 1;
+    font-size: 15px;
+    height: fit-content;
+    padding-right: 20px;
+    margin-left: 5%;
+}
+
+.img-post {
+    width: 40%;
+    margin-left: 18px;
+}
+
+.link-img {
+    display: block;
+    object-fit: cover;
+}
+
+.img-post img {
+    width: 100%;
+}
+.readmore {
+    color: orange;
+    font-weight: 700;
+}
