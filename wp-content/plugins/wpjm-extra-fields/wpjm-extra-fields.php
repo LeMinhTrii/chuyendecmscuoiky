@@ -29,6 +29,7 @@ add_filter( 'job_manager_job_listing_data_fields', 'gma_wpjmef_admin_add_importa
 // Single Job page filters
 add_action( 'single_job_listing_meta_end', 'gma_wpjmef_display_job_salary_data' );
 add_action( 'single_job_listing_meta_end', 'gma_wpjmef_display_important_info_data' );
+
 // Dashboard: Job Listings > Jobs filters
 add_filter( 'manage_edit-job_listing_columns', 'gma_wpjmef_retrieve_salary_column' );
 add_filter( 'manage_job_listing_posts_custom_column', 'gma_wpjmef_display_salary_column' );

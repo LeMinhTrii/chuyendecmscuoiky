@@ -1182,7 +1182,7 @@ function get_the_company_twitter( $post = null ) {
  */
 function job_listing_class( $class = '', $post_id = null ) {
 	// Separates classes with a single space, collates classes for post DIV.
-	echo 'class="' . esc_attr( join( ' ', get_job_listing_class( $class, $post_id ) ) ) . '"';
+	echo 'class="dat-joblist ' . esc_attr( join( ' ', get_job_listing_class( $class, $post_id ) ) ) . '"';
 }
 
 /**

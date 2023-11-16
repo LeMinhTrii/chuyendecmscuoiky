@@ -1,0 +1,19 @@
+.job-dat {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.dat-joblist {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px !important;
+  margin-right: 20px !important;
+
+}
+.entry-title.dat-tile a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.entry-meta.row{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
