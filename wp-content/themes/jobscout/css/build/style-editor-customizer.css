@@ -1,0 +1,42 @@
+
+/* .btn-submitjob{
+    background: #ea751e;
+    border: 1px solid #ea751e;
+} */
+.btn-moreaboutus{
+    border: 1px solid #ffffff;
+    margin-right: 30px !important;
+}
+/* .btn-moreaboutus:hover {
+    background: #ffffff;
+    color: #000000 !important;
+  }
+  .btn-submitjob:hover{
+    background: #ea751e;
+    color: #ffffff;
+  } */
+.icon-social>.widget_raratheme_client_logo_widget>.raratheme-client-logo-holder>.raratheme-client-logo-inner-holder>.image-holder {
+    height: 42px;
+    width: 40px;
+}
+.icon-social>.widget_raratheme_client_logo_widget>.raratheme-client-logo-holder>.raratheme-client-logo-inner-holder{
+    margin-left: 41%;
+}
+.icon-social>.widget_block{
+    text-align: center;
+}
+.wp-block-buttons{
+    margin-left: 25% !important;
+}
+.wp-block-button__link{
+    background-color: #ffffff !important;
+    color: #000 !important;
+    padding-right: 0px !important;
+    border-radius:0px  !important;
+}
+.widget_block{
+    margin-top: 40px !important;
+}
+.widget_raratheme_client_logo_widget{
+    margin-bottom: 100px !important;
+}
