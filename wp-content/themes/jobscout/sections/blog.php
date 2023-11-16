@@ -5,7 +5,7 @@
  * @package JobScout
  */
 
-$blog_heading = get_theme_mod( 'blog_section_title', __( 'Latest Articles', 'jobscout' ) );
+$blog_heading = get_theme_mod( 'blog_section_title', __( 'NEWEST BLOG ENTRIES', 'jobscout' ) );
 $sub_title    = get_theme_mod( 'blog_section_subtitle', __( 'We will help you find it. We are your first step to becoming everything you want to be.', 'jobscout' ) );
 $blog         = get_option( 'page_for_posts' );
 $label        = get_theme_mod( 'blog_view_all', __( 'See More Posts', 'jobscout' ) );

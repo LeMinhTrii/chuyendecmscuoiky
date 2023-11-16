@@ -141,7 +141,7 @@ if( ! function_exists( 'jobscout_content_start' ) ) :
  *  
 */
 function jobscout_content_start(){       
-    echo '<div id="acc-content"><!-- .site-header -->';
+    echo '<div class="blog_custom"><div id="acc-content"><!-- .site-header -->';
     $home_sections = jobscout_get_home_sections(); 
     if( ! ( is_front_page() && ! is_home() && $home_sections ) ){ //Make necessary adjust for pg template.
         echo is_404() ? '<div class="error-holder">' : '<div id="content" class="site-content">'; 
@@ -264,7 +264,7 @@ function jobscout_entry_header(){ ?>
                 if( ! $ed_cat_single ) jobscout_category();
             }else{
                 if( 'post' === get_post_type() ){
-                    echo '<div class="entry-meta">';
+                    echo '<div class="entry-meta date">';
                     if( ! $hide_author ) jobscout_posted_by();
                     if( ! $hide_date ) jobscout_posted_on();
                     echo '</div>';
@@ -350,7 +350,7 @@ function jobscout_entry_footer(){
                         ),
                         get_the_title()
                     ),
-                    '<span class="edit-link">',
+                    '<span class="edit-link edit_link_custom">',
                     '</span>'
                 );
             }

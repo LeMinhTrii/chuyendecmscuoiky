@@ -25,6 +25,7 @@
     do_action( 'jobscout_before_wp_head' );
     
     wp_head(); ?>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700,800|Open+Sans+Condensed:300,700|Prata&subset=vietnamese' rel='stylesheet' type='text/css'>
 </head>
 
 <body <?php body_class(); ?> itemscope itemtype="https://schema.org/WebPage">

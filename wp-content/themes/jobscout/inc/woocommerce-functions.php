@@ -53,7 +53,7 @@ add_action( 'widgets_init', 'jobscout_wc_widgets_init' );
 */
 function jobscout_wc_wrapper(){    
     ?>
-    <div id="primary" class="content-area">
+    <div id="primary" class="content-area duo">
         <main id="main" class="site-main" role="main">
     <?php
 }
