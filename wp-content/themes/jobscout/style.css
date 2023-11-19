@@ -916,7 +916,7 @@ a:hover {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-  margin: 0 0 60px 0;
+  margin: 0 0 10px 0;
   /* Make sure select elements fit in widgets. */
 }
 
@@ -1162,7 +1162,7 @@ section[class*="-section"] .widget_text {
 section[class*="-section"] .widget_text .widget-title,
 .section-title,
 .client-section .widget .widget-title {
-  font-size: 1.7223em;
+  font-size: 25px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 800;
@@ -1280,7 +1280,7 @@ form.search-form input.search-submit:focus {
 }
 
 .site-footer .widget .widget-title {
-  color: #fff;
+  color: #000000;
   margin-bottom: 30px;
 }
 
@@ -1329,7 +1329,7 @@ form.search-form input.search-submit:focus {
 .site-footer .widget ul li,
 .site-footer .widget ul li a,
 .site-footer .widget ol li a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .site-footer .widget ul li {
@@ -3101,8 +3101,8 @@ section.client-section {
 SITE FOOTER SECTION
 ==========================*/
 .footer-t {
-  background: #000;
-  padding-top: 60px;
+  background: #ffffff;
+  /* padding-top: 17px; */
 }
 
 .site-footer .grid:not(.column-1) {
@@ -3146,7 +3146,7 @@ SITE FOOTER SECTION
 
 .footer-b {
   background: #212121;
-  padding: 15px 0;
+  padding: 25px 0;
   font-size: 0.888em;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
@@ -4753,6 +4753,7 @@ WIDGET CLIENT LOGO
   margin-right: -15px;
 }
 
+
 .widget_raratheme_client_logo_widget .widget-title {
   width: 100%;
   padding: 0 15px;
@@ -4777,7 +4778,7 @@ section[class*="-section"]
 }
 
 .widget_raratheme_client_logo_widget .image-holder:not(.black-wihte) a {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   filter: alpha(opacity=50);
 }
 
@@ -4933,7 +4934,7 @@ WIDGET CALL TO ACTION
 }
 
 .widget_raratheme_companion_cta_widget .raratheme-cta-container {
-  max-width: 590px;
+  /* max-width: 590px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -4968,19 +4969,19 @@ WIDGET CALL TO ACTION
 
 .widget_raratheme_companion_cta_widget a.btn-cta {
   display: inline-block;
-  background: #2ace5e;
-  border: 1px solid #2ace5e;
+  /* background: #2ace5e;
+  border: 1px solid #2ace5e; */
   color: #fff;
   font-weight: 700;
   margin: 5px;
   font-size: 0.888em;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   padding: 10px 18px;
 }
 
 .widget_raratheme_companion_cta_widget a.btn-cta:hover {
-  background: none;
-  color: #2ace5e;
+  /* background: none;
+  color: #2ace5e; */
 }
 
 .widget_raratheme_companion_cta_widget .text a.btn-cta {
@@ -5286,8 +5287,8 @@ WIDGET SOCIAL LINKS
 }
 
 .site-footer .widget_rtc_social_links ul li.rtc-social-icon-wrap a {
-  background: rgba(255, 255, 255, 0.15);
-  color: rgba(255, 255, 255, 0.8);
+  /* background: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.8); */
 }
 
 .widget_rtc_social_links ul li.rtc-social-icon-wrap a:hover,

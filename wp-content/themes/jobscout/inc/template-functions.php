@@ -543,8 +543,7 @@ if (!function_exists('jobscout_header')) :
                         <?php } ?>
                     </div>
                 </div>
-            </div>
-        <?php
+            <?php
                 }
             }
         endif;
@@ -556,21 +555,45 @@ if (!function_exists('jobscout_header')) :
              */
             function jobscout_footer_bottom()
             { ?>
-        <div class="footer-b">
-            <div class="container">
-                <?php
-                if (function_exists('the_privacy_policy_link'))  the_privacy_policy_link('<div class="privacy-block">', '</div>');
-                ?>
-                <div class="copyright">
+            <div class="footer-b">
+                <div class="container">
                     <?php
-                    jobscout_get_footer_copyright();
-                    jobscout_ed_author_link();
-                    jobscout_ed_wp_link();
+                    if (function_exists('the_privacy_policy_link'))  the_privacy_policy_link('<div class="privacy-block">', '</div>');
                     ?>
-                </div>
-            </div>
-        </div>
-    <?php
+                    <div class="copyright">
+                        <?php
+                        jobscout_get_footer_copyright();
+                        // jobscout_ed_author_link();
+                        // jobscout_ed_wp_link();
+                        ?>
+                    </div>
+                <?php
+            }
+
+        endif;
+        add_action('jobscout_footer', 'jobscout_footer_top', 30);
+
+        if (!function_exists('jobscout_footer_bottom')) :
+            /**
+             * Footer Bottom
+             */
+            function jobscout_footer_bottom()
+            { ?>
+                    <div class="footer-b">
+                        <div class="container">
+                            <?php
+                            if (function_exists('the_privacy_policy_link'))  the_privacy_policy_link('<div class="privacy-block">', '</div>');
+                            ?>
+                            <div class="copyright">
+                                <?php
+                                jobscout_get_footer_copyright();
+                                jobscout_ed_author_link();
+                                jobscout_ed_wp_link();
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                <?php
             }
         endif;
         add_action('jobscout_footer', 'jobscout_footer_bottom', 40);
