@@ -64,4 +64,6 @@ do_action('jobscout_doctype');
      * 
      * @hooked jobscout_content_start
      */
-    do_action('jobscout_content');
+    if (!is_page('about-us')) {
+        do_action('jobscout_content');
+    }

@@ -13,6 +13,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 600;
+  line-height: 1;
 }
 .custom_banner .caption-inner .textbox .description {
   margin: 0;
@@ -20,7 +21,8 @@
 .custom_banner .caption-inner .textbox .description p {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
-  padding: 13px 0;
+  padding: 10px 0 13px;
+  line-height: 26px !important;
   margin: 0;
 }
 /* custom btn search */
@@ -52,7 +54,7 @@
   display: grid;
   gap: 15px;
   grid-template-columns: 2fr 1fr 150px;
-  padding: 15px;
+  padding: 20px;
   background: #00000039;
 }
 .custom_search_job .wrap .search_keywords,
@@ -64,7 +66,7 @@
   color: #ea751d;
   position: absolute;
   top: 50%;
-  left: 15px;
+  left: 16px;
   transform: translateY(-50%);
 }
 .custom_search_job .wrap .search_location select:focus-visible,
@@ -82,4 +84,138 @@
 .custom_search_job .wrap .search_location select,
 .custom_search_job .wrap .search_keywords input[type="text"] {
   padding: 10px 30px 10px 45px;
+}
+/* about page */
+.page_about-wrap {
+  background: #f2f2f2;
+}
+.page_about-wrap .entry-title {
+  text-align: center;
+  padding: 70px 0 65px;
+  text-transform: uppercase;
+  margin-bottom: 0px !important;
+  font-weight: 700 !important;
+  font-size: 37px !important;
+  line-height: 1 !important;
+}
+.page_about-wrap .wp-block-group__inner-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  align-items: center;
+  padding: 0 0 78px;
+  max-width: 1050px;
+  margin: 0 auto !important;
+}
+.wp-block-columns.is-layout-flex.wp-container-core-columns-layout-1.wp-block-columns-is-layout-flex {
+  margin-bottom: 0;
+}
+.page_about-wrap
+  .wp-block-column.is-layout-flow.wp-block-column-is-layout-flow
+  .wp-block-group__inner-container {
+  padding: 64px 0 84px;
+}
+.page_about-wrap .wp-block-group__inner-container figure {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+.page_about-wrap .wp-block-group__inner-container figure img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+.page_about-wrap .wp-block-group__inner-container .textbox {
+  box-sizing: border-box;
+  padding: 34px 0;
+}
+.page_about-wrap .wp-block-group__inner-container .textbox .item {
+  margin-bottom: 33px;
+}
+.page_about-wrap .wp-block-group__inner-container .textbox .item:last-child {
+  margin-bottom: 0;
+}
+.page_about-wrap .wp-block-group__inner-container .textbox .title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px !important;
+  margin-bottom: 10px;
+  color: #000000c4;
+}
+.page_about-wrap .wp-block-group__inner-container .textbox .desc {
+  color: #000000ac;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.about_page-content {
+  background: #fff;
+  text-align: center;
+}
+.about_page-content .wrap {
+  margin: 0 auto;
+  max-width: 842px;
+  padding: 52px 0 24px;
+}
+.about_page-content .wrap .title {
+  color: #ea751d;
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 1;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.about_page-content .wrap .desc {
+  color: #000000ac;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 26px;
+}
+.page_about-wrap .post-thumbnail {
+  margin-bottom: 0px !important;
+}
+.page_about-wrap .entry-footer .edit-link {
+  display: none;
+}
+.page_about-wrap .hentry {
+  margin: 0 !important;
+}
+
+.about_page-infor {
+  text-align: center;
+}
+.about_page-infor .item {
+  margin-bottom: 36px;
+}
+.about_page-infor .item:last-child {
+  margin-bottom: 0;
+}
+.about_page-infor .title {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 19px !important;
+  margin-bottom: 15px;
+  color: #000000c4;
+}
+.about_page-infor .text {
+  margin: 0 !important;
+  color: #000000ac;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
 }
