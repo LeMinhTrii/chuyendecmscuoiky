@@ -26,4 +26,4 @@
         */
         do_action( 'jobscout_page_entry_content' );    
     ?>
-</article><!-- #post-<?php the_ID(); ?> -->
+</article>#post-<?php the_ID(); ?>

@@ -19,8 +19,10 @@ get_header(); ?>
 			<?php
 			while ( have_posts() ) : the_post();
 
-				get_template_part( 'template-parts/content', 'page' );
-
+				 if (is_page('contact')) {;
+            } else {
+                get_template_part('template-parts/content', 'page');
+            }
 				/**
                  * Comment Template
                  * 

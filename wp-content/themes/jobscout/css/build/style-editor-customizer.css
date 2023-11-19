@@ -72,3 +72,12 @@
 .wp-block-pages-list__item__link {
     color: #000 !important;
 }
+/*css contact*/
+.content-contact{
+    text-align: center !important ;
+    background: #f2f2f2 !important;
+}
+.content-contact>.bg-cta-section>.widget>.wp-block-columns>.wp-block-column>p>a{
+    text-decoration: underline;
+    color: #eb7e2d;
+}
