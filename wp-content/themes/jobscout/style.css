@@ -1158,7 +1158,7 @@ section[class*="-section"] .widget_text {
 section[class*="-section"] .widget_text .widget-title,
 .section-title,
 .client-section .widget .widget-title {
-  font-size: 1.7223em;
+  font-size: 25px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 800;
@@ -1325,7 +1325,7 @@ form.search-form input.search-submit:focus {
 .site-footer .widget ul li,
 .site-footer .widget ul li a,
 .site-footer .widget ol li a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .site-footer .widget ul li {
@@ -3065,7 +3065,7 @@ SITE FOOTER SECTION
 ==========================*/
 .footer-t {
   background: #ffffff;
-  padding-top: 60px;
+  /* padding-top: 17px; */
 }
 
 .site-footer .grid:not(.column-1) {
@@ -3109,7 +3109,7 @@ SITE FOOTER SECTION
 
 .footer-b {
   background: #212121;
-  padding: 15px 0;
+  padding: 25px 0;
   font-size: 0.888em;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 400;

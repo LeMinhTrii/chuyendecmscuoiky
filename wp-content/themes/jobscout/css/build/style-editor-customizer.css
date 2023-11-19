@@ -18,9 +18,10 @@
 .icon-social>.widget_raratheme_client_logo_widget>.raratheme-client-logo-holder>.raratheme-client-logo-inner-holder>.image-holder {
     height: 42px;
     width: 40px;
+    margin-right: 20px;
 }
 .icon-social>.widget_raratheme_client_logo_widget>.raratheme-client-logo-holder>.raratheme-client-logo-inner-holder{
-    margin-left: 41%;
+    margin-left: 39%;
 }
 .icon-social>.widget_block{
     text-align: center;
@@ -40,3 +41,30 @@
 .widget_raratheme_client_logo_widget{
     margin-bottom: 100px !important;
 }
+.wp-widget-group__inner-blocks{
+    text-align: center;
+    padding-right: 96px;
+}
+.wp-block-page-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    justify-content: center;
+    padding-left: 100px;
+}
+.wp-widget-group__inner-blocks>h2{
+    padding-left: 100px;
+}
+
+.wp-block-pages-list__item {
+    margin-right: 30px; /* Khoảng cách giữa các mục li */
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wp-block-pages-list__item__link{
+    color: #000 !important;
+
+}
+

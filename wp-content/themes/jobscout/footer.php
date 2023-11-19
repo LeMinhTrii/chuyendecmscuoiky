@@ -1,3 +1,30 @@
+<!-- Hiển thị tên các trang trong phần footer -->
+<?php
+$job_title = get_theme_mod( 'job_posting_section_title', __( 'Plan•Do•See Global Inc.', 'jobscout' ) ); ?>
+<div class="wp-widget-group__inner-blocks">
+<?php echo '<h2 class="section-title">'. esc_html( $job_title ) .'</h2>'; ?>
+    <ul class="wp-block-page-list">
+        <?php
+        // Danh sách các slug của trang bạn quan tâm
+        $page_slugs = array('jobs', 'sample-page' , 'blog', 'sample-page' , 'contact' );
+
+        foreach ($page_slugs as $slug) {
+            $page = get_page_by_path($slug);
+
+            if ($page) {
+                $page_title = get_the_title($page->ID);
+        ?>
+                <li class="wp-block-pages-list__item">
+                    <a class="wp-block-pages-list__item__link" href="<?php echo esc_url(get_permalink($page->ID)); ?>"><?php echo esc_html($page_title); ?></a>
+                </li>
+        <?php
+            }
+        }
+        ?>
+        <!-- Thêm các mục khác tùy thuộc vào số lượng trang bạn muốn hiển thị -->
+    </ul>
+</div>
+
 <?php
 /**
  * The template for displaying the footer
@@ -33,7 +60,7 @@
     */
     do_action( 'jobscout_after_footer' );
 
-    wp_footer(); ?>
+    wp_footer();
+?>
 
-</body>
-</html>
+<!-- Hiển thị tên các trang trong phần footer -->
