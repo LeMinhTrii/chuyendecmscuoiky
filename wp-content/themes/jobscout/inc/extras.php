@@ -139,9 +139,12 @@ function jobscout_site_branding( $responsive = false ){
             <?php }else{
                 if( is_front_page() ){ ?>
                     <h1 class="site-title" itemprop="name"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
+                    <p class="site-grD" itemprop="name"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" itemprop="url">Group D</a></p>
+
                     <?php 
                 }else{ ?>
                     <p class="site-title" itemprop="name"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" itemprop="url"><?php bloginfo( 'name' ); ?></a></p>
+                    <p class="site-grD" itemprop="name"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" itemprop="url">Group D</a></p>
                 <?php
                 }
             }
@@ -165,7 +168,7 @@ if( ! function_exists( 'jobscout_primary_nagivation' ) ) :
 */
 function jobscout_primary_nagivation(){ 
 
-    $post_job_label  = get_theme_mod( 'post_job_label', __( 'Post Jobs', 'jobscout' ) );
+    $post_job_label  = get_theme_mod( 'post_job_label', __( 'Submit Job', 'jobscout' ) );
     $post_job_url    = get_theme_mod( 'post_job_url', '#' );
     ?>
     	<nav id="site-navigation" class="main-navigation" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
@@ -212,22 +215,7 @@ if( ! function_exists( 'jobscout_secondary_navigation' ) ) :
  * Secondary Navigation
 */
 function jobscout_secondary_navigation(){ ?>
-    <div class="header-t">
-        <div class="container">
-            <div class="left-block">
-	            <nav class="secondary-nav">
-            		<?php
-            			wp_nav_menu( array(
-            				'theme_location' => 'secondary',
-                            'menu_class'     => 'nav-menu',
-            				'menu_id'        => 'secondary-menu',
-                            'fallback_cb'    => 'jobscout_secondary_menu_fallback',
-            			) );
-            		?>
-	            </nav>
-            </div>
-        </div>
-    </div><!-- .header-t -->
+    
     <?php
 }
 endif;

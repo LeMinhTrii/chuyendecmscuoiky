@@ -48,15 +48,17 @@ if ($ed_blog && ($blog_heading || $sub_title || $qry->have_posts())) { ?>
 
                         <div class="total-post">
                             <figure class="img-post">
-                                <a href="<?php the_permalink(); ?>" class="link-img">
-                                    <?php
-                                    if (has_post_thumbnail()) {
-                                        the_post_thumbnail('jobscout-blog', array('itemprop' => 'image'));
-                                    } else {
-                                        jobscout_fallback_svg_image('jobscout-blog');
-                                    }
-                                    ?>
-                                </a>
+                                <div class="image-post">
+                                    <a href="<?php the_permalink(); ?>" class="link-img">
+                                        <?php
+                                        if (has_post_thumbnail()) {
+                                            the_post_thumbnail('jobscout-blog', array('itemprop' => 'image'));
+                                        } else {
+                                            jobscout_fallback_svg_image('jobscout-blog');
+                                        }
+                                        ?>
+                                    </a>
+                                </div>
                             </figure>
                             <div class="content-post">
                                 <div class="content-post-child">
@@ -64,7 +66,7 @@ if ($ed_blog && ($blog_heading || $sub_title || $qry->have_posts())) { ?>
                                     <p>
                                         <?php
                                         $content = get_the_content();
-                                        $word_limit = 15;
+                                        $word_limit = 25;
                                         $words = explode(' ', $content);
                                         if (count($words) > $word_limit) {
                                             $short_content = implode(' ', array_slice($words, 0, $word_limit));
@@ -85,11 +87,6 @@ if ($ed_blog && ($blog_heading || $sub_title || $qry->have_posts())) { ?>
 
                     <?php } ?>
                 </div>
-                <?php if ($blog && $label) { ?>
-                    <div class="btn-wrap">
-                        <a href="<?php the_permalink($blog); ?>" class="btn"><?php echo esc_html($label); ?></a>
-                    </div>
-                <?php } ?>
             </div>
         <?php } ?>
     </body>
