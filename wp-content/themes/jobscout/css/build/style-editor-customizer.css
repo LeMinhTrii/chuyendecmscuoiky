@@ -1,51 +1,52 @@
-
-/* .btn-submitjob{
-    background: #ea751e;
-    border: 1px solid #ea751e;
-} */
-.btn-moreaboutus{
-    border: 1px solid #ffffff;
-    margin-right: 30px !important;
-}
-/* .btn-moreaboutus:hover {
-    background: #ffffff;
-    color: #000000 !important;
-  }
-  .btn-submitjob:hover{
-    background: #ea751e;
-    color: #ffffff;
-  } */
-.icon-social>.widget_raratheme_client_logo_widget>.raratheme-client-logo-holder>.raratheme-client-logo-inner-holder>.image-holder {
+/* CSS footer*/
+/* Điều chỉnh kích thước và margin của hình ảnh trong phần social icon */
+.icon-social > .widget_raratheme_client_logo_widget > .raratheme-client-logo-holder > .raratheme-client-logo-inner-holder > .image-holder {
     height: 42px;
     width: 40px;
     margin-right: 20px;
 }
-.icon-social>.widget_raratheme_client_logo_widget>.raratheme-client-logo-holder>.raratheme-client-logo-inner-holder{
+
+/* Đặt margin-left cho inner holder trong phần logo social icon */
+.icon-social > .widget_raratheme_client_logo_widget > .raratheme-client-logo-holder > .raratheme-client-logo-inner-holder {
     margin-left: 39%;
 }
-.icon-social>.widget_block{
+
+/* Căn giữa nội dung trong phần widget_block của social icon */
+.icon-social > .widget_block {
     text-align: center;
 }
-.wp-block-buttons{
+
+/* Dịch chuyển nút trái trong phần wp-block-buttons */
+.wp-block-buttons {
     margin-left: 25% !important;
 }
-.wp-block-button__link{
+
+/* Tùy chỉnh nền, màu chữ và bo góc của nút trong phần wp-block-button__link */
+.wp-block-button__link {
     background-color: #ffffff !important;
     color: #000 !important;
     padding-right: 0px !important;
-    border-radius:0px  !important;
+    border-radius: 0px !important;
 }
-.widget_block{
+
+/* Đặt margin-top cho phần widget_block */
+.widget_block {
     margin-top: 40px !important;
 }
-.widget_raratheme_client_logo_widget{
+
+/* Đặt margin-bottom cho phần widget_raratheme_client_logo_widget */
+.widget_raratheme_client_logo_widget {
     margin-bottom: 100px !important;
 }
-.wp-widget-group__inner-blocks{
+
+/* Căn giữa nội dung và padding phải trong phần wp-widget-group__inner-blocks */
+.wp-widget-group__inner-blocks {
     text-align: center;
     padding-right: 96px;
 }
-.wp-block-page-list{
+
+/* Tùy chỉnh danh sách trang để căn giữa và thêm padding bên trái */
+.wp-block-page-list {
     list-style-type: none;
     display: flex;
     flex-wrap: nowrap;
@@ -53,18 +54,21 @@
     justify-content: center;
     padding-left: 100px;
 }
-.wp-widget-group__inner-blocks>h2{
+
+/* Tùy chỉnh h2 trong phần wp-widget-group__inner-blocks để có padding bên trái */
+.wp-widget-group__inner-blocks > h2 {
     padding-left: 100px;
 }
 
+/* Tùy chỉnh khoảng cách giữa các mục li, kích thước chữ, padding trên và padding dưới của mục trong phần wp-block-pages-list__item */
 .wp-block-pages-list__item {
     margin-right: 30px; /* Khoảng cách giữa các mục li */
     font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.wp-block-pages-list__item__link{
+
+/* Tùy chỉnh màu chữ của liên kết trong phần wp-block-pages-list__item__link */
+.wp-block-pages-list__item__link {
     color: #000 !important;
-
 }
-
