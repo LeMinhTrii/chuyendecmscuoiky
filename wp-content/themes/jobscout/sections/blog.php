@@ -85,9 +85,13 @@ if ($ed_blog && ($blog_heading || $sub_title || $qry->have_posts())) { ?>
                                 </div>
                             </div>
 
-
                         <?php } ?>
                     </div>
+                    <?php if ($blog && $label) { ?>
+                        <div class="btn-wrap">
+                            <a href="<?php the_permalink($blog); ?>" class="btn"><?php echo esc_html($label); ?></a>
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
         <?php } ?>
