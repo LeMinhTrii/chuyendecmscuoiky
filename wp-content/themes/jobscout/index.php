@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area set_w">
 		
         <?php 
         /**
@@ -22,8 +22,8 @@ get_header(); ?>
         */
         do_action( 'jobscout_before_posts_content' );
         ?>
-        
         <main id="main" class="site-main">
+			<div class="list_post row">
 
 		<?php
 		if ( have_posts() ) :
@@ -45,6 +45,8 @@ get_header(); ?>
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif; ?>
+			</div>
+
 
 		</main><!-- #main -->
         
