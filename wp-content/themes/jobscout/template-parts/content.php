@@ -7,9 +7,6 @@
  * @package JobScout
  */
 ?> 
-
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/build/style-editor-customizer.css" media="all">
-
     <div class="blog_custom_item">
             <?php 
                 /**
