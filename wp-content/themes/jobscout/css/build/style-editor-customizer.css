@@ -318,3 +318,24 @@
   height: 35px;
   border-radius: 50%;
 }
+.job-dat {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.dat-joblist {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 0 !important;
+}
+.entry-title.dat-tile a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.entry-meta.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.post-edit-link {
+  display: none !important;
+}
