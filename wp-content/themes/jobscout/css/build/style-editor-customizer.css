@@ -83,3 +83,102 @@
     display: none;
 }
 /* DƯƠNG END CSS */
+/* CSS footer*/
+/* Điều chỉnh kích thước và margin của hình ảnh trong phần social icon */
+.icon-social
+  > .widget_raratheme_client_logo_widget
+  > .raratheme-client-logo-holder
+  > .raratheme-client-logo-inner-holder
+  > .image-holder {
+  height: 42px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+/* Đặt margin-left cho inner holder trong phần logo social icon */
+.icon-social
+  > .widget_raratheme_client_logo_widget
+  > .raratheme-client-logo-holder
+  > .raratheme-client-logo-inner-holder {
+  margin-left: 39%;
+}
+
+/* Căn giữa nội dung trong phần widget_block của social icon */
+.icon-social > .widget_block {
+  text-align: center;
+}
+
+/* Dịch chuyển nút trái trong phần wp-block-buttons */
+.wp-block-buttons {
+  margin-left: 25% !important;
+}
+
+/* Tùy chỉnh nền, màu chữ và bo góc của nút trong phần wp-block-button__link */
+.wp-block-button__link {
+  background-color: #ffffff !important;
+  color: #000 !important;
+  padding-right: 0px !important;
+  border-radius: 0px !important;
+}
+
+/* Đặt margin-top cho phần widget_block */
+.widget_block {
+  margin-top: 40px !important;
+}
+
+/* Đặt margin-bottom cho phần widget_raratheme_client_logo_widget */
+.widget_raratheme_client_logo_widget {
+  margin-bottom: 100px !important;
+}
+
+/* Căn giữa nội dung và padding phải trong phần wp-widget-group__inner-blocks */
+.wp-widget-group__inner-blocks {
+  text-align: center;
+  padding-right: 96px;
+}
+.wp-widget-group__inner-blocks.custom {
+  text-align: center;
+  padding-right: 0;
+  padding: 88px 0;
+}
+/* Tùy chỉnh danh sách trang để căn giữa và thêm padding bên trái */
+.wp-block-page-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-left: 0;
+}
+
+/* Tùy chỉnh h2 trong phần wp-widget-group__inner-blocks để có padding bên trái */
+.wp-widget-group__inner-blocks .section-title {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Tùy chỉnh khoảng cách giữa các mục li, kích thước chữ, padding trên và padding dưới của mục trong phần wp-block-pages-list__item */
+.wp-block-pages-list__item {
+  font-size: 25px;
+  padding: 12px 0 25px;
+}
+
+/* Tùy chỉnh màu chữ của liên kết trong phần wp-block-pages-list__item__link */
+.wp-block-pages-list__item__link {
+  color: #000 !important;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.icon-social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.icon-social .icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}

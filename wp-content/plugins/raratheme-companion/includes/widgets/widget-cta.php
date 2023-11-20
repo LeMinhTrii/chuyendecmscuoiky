@@ -111,12 +111,12 @@ class RaraThemes_Companion_Cta extends WP_Widget {
                         <?php
                             if( $button_number == '1' )
                             {
-                                if( isset( $button1_text ) && $button1_url!='' ) echo '<a ' .$newtab. ' href="' . esc_url( $button1_url ) . '" class="btn-cta btn-1">' . esc_html( $button1_text ) . '</a>';
+                                if( isset( $button1_text ) && $button1_url!='' ) echo '<a ' .$newtab. ' href="' . esc_url( $button1_url ) . '" class="btn-cta btn-1 btn-moreaboutus">' . esc_html( $button1_text ) . '</a>';
                             }
                             if( $button_number == '2' )
                             {
-                                if( isset( $button1_text ) && $button1_url!='' ) echo '<a ' .$newtab. 'href="' . esc_url( $button1_url ) . '" class="btn-cta btn-1">' . esc_html( $button1_text ) . '</a>';
-                                if( isset( $button2_text ) && $button2_url!='' ) echo '<a ' .$newtab. ' href="' . esc_url( $button2_url ) . '" class="btn-cta btn-2">' . esc_html( $button2_text ) . '</a>';
+                                if( isset( $button1_text ) && $button1_url!='' ) echo '<a ' .$newtab. 'href="' . esc_url( $button1_url ) . '" class="btn-cta btn-1 btn-moreaboutus">' . esc_html( $button1_text ) . '</a>';
+                                if( isset( $button2_text ) && $button2_url!='' ) echo '<a ' .$newtab. ' href="' . esc_url( $button2_url ) . '" class="btn-cta btn-2 btn-submitjob">' . esc_html( $button2_text ) . '</a>';
                             }
                         ?>
                     </div>
