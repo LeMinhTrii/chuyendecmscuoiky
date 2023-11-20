@@ -4909,7 +4909,7 @@ WIDGET CALL TO ACTION
 =========================*/
 .widget_raratheme_companion_cta_widget .bttk-cta-bg,
 .widget_raratheme_companion_cta_widget .text {
-  padding: 100px 0;
+  padding: 80px 0;
   position: relative;
   z-index: 1;
 }
