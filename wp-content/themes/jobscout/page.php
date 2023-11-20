@@ -23,6 +23,18 @@ get_header();
 
 			if (is_page('about-us')) {
 		?>
+				<div id="banner-section" class="site-banner<?php if (has_header_video()) echo esc_attr(' video-banner'); ?>">
+					<div class="item" style="height: 365px; object-fit: cover; overflow: hidden;">
+						<?php the_custom_header_markup(); ?>
+						<div class="banner-caption">
+							<div class="container">
+								<div class="caption-inner">
+									<h2 class="title">SHARE "OMOTENSHI"<br> WITH THE WORLD</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="page_about-wrap">
 					<!-- <div class="container"> -->
 					<?php
