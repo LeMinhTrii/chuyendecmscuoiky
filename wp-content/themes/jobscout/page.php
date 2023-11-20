@@ -20,8 +20,6 @@ get_header();
 
 		<?php
 		while (have_posts()) : the_post();
-			get_template_part('template-parts/content', 'page');
-
 			if (is_page('about-us')) {
 		?>
 				<div id="banner-section" class="site-banner<?php if (has_header_video()) echo esc_attr(' video-banner'); ?>">
@@ -60,11 +58,6 @@ get_header();
 
 	</main><!-- #main -->
 </div><!-- #primary -->
-endwhile; // End of the loop.
-?>
-</main><!-- #main -->
-</div><!-- #primary -->
-
 <?php
 get_sidebar();
 get_footer();
