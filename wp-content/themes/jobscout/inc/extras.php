@@ -981,4 +981,3 @@ if (!function_exists('jobscout_theme_comment')) :
         }
     endif;
     ?>
-   
