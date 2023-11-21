@@ -51,6 +51,9 @@
   height: 220px !important;
   padding: 10px;
 }
+.blog_custom .list_post .blog_custom_item .entry-meta {
+  display: none;
+}
 .banner-caption .jobscout_job_filters .search_jobs input[type="submit"]:hover {
   background: #ea751d;
   background-image: unset;
@@ -644,4 +647,54 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
+}
+/* Kien contact-form-7 */
+.wpcf7-form p {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+  align-items: center;
+}
+.wpcf7-form p label:last-child {
+  margin-left: 20px;
+}
+
+.wpcf7-form-control-wrap input {
+  border-radius: 0;
+  height: 45.3px;
+  border: none;
+}
+.wpcf7-form-control-wrap input:focus {
+  border: none;
+  outline: none;
+}
+.wpcf7-form p svg {
+  padding: 13.646px 0px 13.646px 18px;
+  color: #ea751e;
+  background-color: #fff;
+}
+.wpcf7-form p label:last-child input {
+  border-radius: 0;
+  background-color: #ea751e;
+  border: 1px solid #fff;
+}
+
+.wpcf7-spinner {
+  display: none;
+}
+.wpcf7-form p label:first-child {
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+  margin-right: 30px;
+}
+section.client-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ea751e;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.wp-block-contact-form-7-contact-form-selector {
+  margin-top: -22px;
 }
