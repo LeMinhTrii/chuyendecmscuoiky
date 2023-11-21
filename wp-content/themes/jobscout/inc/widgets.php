@@ -18,6 +18,16 @@ function jobscout_widgets_init(){
             'id'          => 'cta', 
             'description' => __( 'Add "Rara: Call To Action" widget for Call to Action section.', 'jobscout' ),
         ),
+        'cta2' => array(
+            'name'        => __( 'contact', 'jobscout' ),
+            'id'          => 'cta2', 
+            'description' => __( 'Add "Rara: Call To Action" widget for Call to Action section.', 'jobscout' ),
+        ),
+        'cta3' => array(
+            'name'        => __( 'contact-content', 'jobscout' ),
+            'id'          => 'cta3', 
+            'description' => __( 'Add "Rara: Call To Action" widget for Call to Action section.', 'jobscout' ),
+        ),
         'testimonial' => array(
             'name'        => __( 'Testimonial Section', 'jobscout' ),
             'id'          => 'testimonial', 

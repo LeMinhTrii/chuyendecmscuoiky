@@ -41,9 +41,19 @@ get_header();
 					?>
 					<!-- </div> -->
 				</div>
-			<?php
+				<?php
 			} else {
-				get_template_part('template-parts/content', 'page');
+				if (is_page('contact')) {
+				?>
+					<div class="wrap_contact">
+						<?php
+						get_template_part('template-parts/content', 'contact');
+						?>
+					</div>
+			<?php
+				} else {
+					get_template_part('template-parts/content', 'page');
+				}
 			}
 			?>
 			<section id="client-section" style="background: #ea751d;">

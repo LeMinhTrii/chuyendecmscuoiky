@@ -5,7 +5,6 @@
 .blog_custom {
   font-family: "Open Sans", sans-serif;
   background: #f0f0f0;
-  margin-top: -50px;
 }
 .custom_banner .caption-inner {
   max-width: 900px;
@@ -399,7 +398,7 @@
   padding: 10px 24px;
 }
 .custom-homerara .widget-title {
-  margin-bottom: 22px;
+  /* margin-bottom: 22px; */
   font-size: 35px;
 }
 /* Css của kiên */
@@ -698,4 +697,113 @@ section.client-section {
 }
 .wp-block-contact-form-7-contact-form-selector {
   margin-top: -22px;
+}
+/* CSS footer*/
+/* Điều chỉnh kích thước và margin của hình ảnh trong phần social icon */
+.icon-social
+  > .widget_raratheme_client_logo_widget
+  > .raratheme-client-logo-holder
+  > .raratheme-client-logo-inner-holder
+  > .image-holder {
+  height: 42px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+/* Đặt margin-left cho inner holder trong phần logo social icon */
+.icon-social
+  > .widget_raratheme_client_logo_widget
+  > .raratheme-client-logo-holder
+  > .raratheme-client-logo-inner-holder {
+  margin-left: 39%;
+}
+
+/* Căn giữa nội dung trong phần widget_block của social icon */
+.icon-social > .widget_block {
+  text-align: center;
+}
+
+/* Dịch chuyển nút trái trong phần wp-block-buttons */
+.wp-block-buttons {
+  margin-left: 25% !important;
+}
+
+/* Tùy chỉnh nền, màu chữ và bo góc của nút trong phần wp-block-button__link */
+.wp-block-button__link {
+  background-color: #ffffff !important;
+  color: #000 !important;
+  padding-right: 0px !important;
+  border-radius: 0px !important;
+}
+
+/* Đặt margin-top cho phần widget_block */
+.widget_block {
+  margin-top: 40px !important;
+}
+
+/* Đặt margin-bottom cho phần widget_raratheme_client_logo_widget */
+.widget_raratheme_client_logo_widget {
+  margin-bottom: 100px !important;
+}
+
+/* Căn giữa nội dung và padding phải trong phần wp-widget-group__inner-blocks */
+.wp-widget-group__inner-blocks {
+  text-align: center;
+  padding-right: 96px;
+}
+
+/* Tùy chỉnh khoảng cách giữa các mục li, kích thước chữ, padding trên và padding dưới của mục trong phần wp-block-pages-list__item */
+
+/* Tùy chỉnh màu chữ của liên kết trong phần wp-block-pages-list__item__link */
+.wp-block-pages-list__item__link {
+  color: #000 !important;
+}
+/*css contact*/
+.content-contact {
+  text-align: center !important ;
+  /* background: #f2f2f2 !important; */
+}
+.content-contact
+  > .bg-cta-section
+  > .widget
+  > .wp-block-columns
+  > .wp-block-column
+  > p
+  > a {
+  text-decoration: underline;
+  color: #eb7e2d;
+}
+/* custom contact */
+.wrap_contact .content-contact {
+  background: #f0f0f0;
+}
+.wrap_contact .bg-cta-section {
+  text-align: center;
+  background: #fff;
+  padding: 0 0 20px;
+}
+.wrap_contact .bg-cta-section .text-holder {
+  display: none;
+}
+.wrap_contact .bg-cta-section .raratheme-cta-container.custom-homerara {
+  height: 150px;
+  position: relative;
+}
+.wrap_contact
+  .bg-cta-section
+  .raratheme-cta-container.custom-homerara
+  .widget-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrap_contact .bg-cta-section2 {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1170px;
+}
+.wrap_contact .bg-cta-section2 #block-12 {
+  margin: 0 !important;
+  padding: 60px 0 70px;
 }
