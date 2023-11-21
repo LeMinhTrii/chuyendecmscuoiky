@@ -66,6 +66,8 @@ do_action('jobscout_doctype');
      */
     if (!is_page('about-us')) {
         if (!is_page('contact')) {
-            do_action('jobscout_content');
+            if (!is_page('blog')) {
+                do_action('jobscout_content');
+            }
         }
     }

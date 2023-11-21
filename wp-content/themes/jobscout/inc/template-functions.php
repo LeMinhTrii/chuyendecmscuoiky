@@ -207,9 +207,16 @@ if (!function_exists('jobscout_header')) :
                         echo '<header class="entry-header" style="' . esc_attr($banner_style) . '"></header>';
                     }
                 }
+                $current_url = $_SERVER['REQUEST_URI'];
+                if (strpos($current_url, 'blog') !== false) :
                 ?>
-                <div class="container">
+                    <!-- <div class="container"> -->
                 <?php
+                else :
+                ?>
+                    <div class="container">
+                <?php
+                endif;
             }
         }
     endif;
@@ -494,7 +501,7 @@ if (!function_exists('jobscout_header')) :
             {
                 $home_sections = jobscout_get_home_sections();
                 if (!(is_front_page() && !is_home() && $home_sections)) { ?>
-                </div><!-- .container/ -->
+                    </div><!-- .container/ -->
         </div><!-- .error-holder/site-content -->
     <?php
                 }

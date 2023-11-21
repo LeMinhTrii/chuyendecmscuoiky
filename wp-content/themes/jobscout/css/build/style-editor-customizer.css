@@ -484,6 +484,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 10px;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 .blog_custom .list_post .blog_custom_item {
   width: calc(50% - 5px);
@@ -803,7 +805,15 @@ section.client-section {
   text-align: center;
   max-width: 1170px;
 }
+.wrap_contact .bg-cta-section2 a {
+  text-decoration: underline;
+  color: #ea751d;
+  font-weight: 600;
+}
 .wrap_contact .bg-cta-section2 #block-12 {
   margin: 0 !important;
   padding: 60px 0 70px;
+}
+body {
+  background: #f0f0f0 !important;
 }

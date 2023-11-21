@@ -14,7 +14,7 @@
  */
 
 get_header(); ?>
-<div id="primary" class="content-area set_w">
+<div id="primary" class="content-area set_w" style="margin-top: -50px;">
 	<div id="banner-section" class="site-banner<?php if (has_header_video()) echo esc_attr(' video-banner'); ?>">
 		<div class="item" style="height: 365px; object-fit: cover; overflow: hidden;">
 			<?php the_custom_header_markup(); ?>
@@ -31,7 +31,7 @@ get_header(); ?>
 	/**
 	 * Before Posts hook
 	 */
-	do_action('jobscout_before_posts_content');
+	// do_action('jobscout_before_posts_content');
 	?>
 
 	<header class="page-header" style="text-align: center; margin: 50px 0	;">
