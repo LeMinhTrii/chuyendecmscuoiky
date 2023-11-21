@@ -5,6 +5,7 @@
 .blog_custom {
   font-family: "Open Sans", sans-serif;
   background: #f0f0f0;
+  margin-top: -50px;
 }
 .custom_banner .caption-inner {
   max-width: 900px;

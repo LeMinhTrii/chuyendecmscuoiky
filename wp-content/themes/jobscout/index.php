@@ -64,7 +64,16 @@ get_header(); ?>
 
 			endif; ?>
 		</div>
-
+		<section id="client-section" style="background: #ea751d; margin:77px 0 90px">
+			<div class="container" style="padding:15px 0">
+				<?php
+				if (is_active_sidebar('client')) {
+					// Output the 'client' sidebar
+					dynamic_sidebar('client');
+				}
+				?>
+			</div>
+		</section>
 
 	</main><!-- #main -->
 

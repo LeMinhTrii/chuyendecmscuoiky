@@ -41,10 +41,23 @@ get_header();
 					?>
 					<!-- </div> -->
 				</div>
-		<?php
+			<?php
 			} else {
 				get_template_part('template-parts/content', 'page');
 			}
+			?>
+			<section id="client-section" style="background: #ea751d;">
+				<div class="container" style="padding:15px 0">
+					<?php
+					if (is_active_sidebar('client')) {
+						// Output the 'client' sidebar
+						dynamic_sidebar('client');
+					}
+					?>
+				</div>
+			</section>
+
+		<?php
 
 			/**
 			 * Comment Template
