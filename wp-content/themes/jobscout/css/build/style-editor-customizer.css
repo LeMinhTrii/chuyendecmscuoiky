@@ -822,3 +822,24 @@ section.client-section {
 body {
   background: #f0f0f0 !important;
 }
+
+/*  */
+.main-navigation ul li:hover::after,
+.main-navigation ul li.current-menu-item::after,
+.main-navigation ul li.current_page_item ::after,
+.main-navigation ul li.current-menu-ancestor::after,
+.main-navigation ul li.current_page_ancestor::after {
+  background: #ea751d;
+}
+.main-navigation ul li {
+  position: relative;
+}
+.main-navigation ul li::after {
+  position: absolute;
+  bottom: 10px;
+  height: 3px;
+  width: 80%;
+  left: 50%;
+  content: "";
+  transform: translateX(-50%);
+}
